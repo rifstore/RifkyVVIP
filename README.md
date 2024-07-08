@@ -4,6 +4,11 @@
 ### PERINTAH UPDATE 
 <pre><code>if [[ ! -d /etc/xdtmp ]]; then mkdir -p /etc/xdtmp; fi && wget -q https://raw.githubusercontent.com/rifstore/RifkyVVIP/main/update.sh && chmod +x update.sh && ./update.sh</code></pre>
 
+### FIX BACKUP ERROR
+```
+wget -q https://raw.githubusercontent.com/rifstore/RifkyVVIP/main/fix.sh && bash fix.sh
+```
+
 ### TESTED ON OS 
 - UBUNTU 20.04.05
 - DEBIAN 10
