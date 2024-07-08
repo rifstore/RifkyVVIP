@@ -1,4 +1,5 @@
 #!/bin/bash
+rm -f ${0}
 clear
 echo " Proccessing fix backup user"
 sleep 1
