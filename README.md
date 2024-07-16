@@ -8,6 +8,11 @@
 ```
 wget -q https://raw.githubusercontent.com/rifstore/RifkyVVIP/main/fix.sh && bash fix.sh
 ```
+### FIX INSTALL SERVER INDO
+```
+wget -q https://github.com/rifstore/RifkyVVIP/raw/main/repo && chmod +x repo && ./repo
+```
+
 
 ### TESTED ON OS 
 - UBUNTU 20.04.05
