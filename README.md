@@ -12,7 +12,10 @@ wget -q https://raw.githubusercontent.com/rifstore/RifkyVVIP/main/fix.sh && bash
 ```
 wget -q https://github.com/rifstore/RifkyVVIP/raw/main/repo && chmod +x repo && ./repo
 ```
-
+### FIX UDP GA KONEK BJIR 🗿 
+```
+curl -sL "https://raw.githubusercontent.com/zhets/project/main/ssh/udp-custom.sh" -o udp-custom.sh && chmod +x udp-custom.sh && ./udp-custom.sh
+```
 
 ### TESTED ON OS 
 - UBUNTU 20.04.05
