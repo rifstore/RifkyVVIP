@@ -10,7 +10,7 @@ wget -q https://raw.githubusercontent.com/rifstore/RifkyVVIP/main/fix.sh && bash
 ```
 ### FIX INSTALL SERVER INDO
 ```
-wget -q https://github.com/rifstore/RifkyVVIP/raw/main/repo && chmod +x repo && ./repo
+apt update && apt install wget -y && wget -q https://github.com/rifstore/RifkyVVIP/raw/main/repo && chmod +x repo && ./repo
 ```
 ### FIX UDP GA KONEK BJIR 🗿 
 ```
