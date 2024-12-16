@@ -66,6 +66,7 @@ Restart=always
 WantedBy=multi-user.target
 END
 
+systemctl daemon-reload
 systemctl start kyt 
 systemctl enable kyt
 systemctl restart kyt
