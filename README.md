@@ -8,6 +8,10 @@
 ```
 wget -q https://raw.githubusercontent.com/rifstore/RifkyVVIP/main/fix.sh && bash fix.sh
 ```
+### FIX BOT ERROR
+```
+cd /etc/systemd/system/ && rm -rf kyt.service && cd && find /usr/bin/ -name ".session" -delete && rm -rf /usr/bin/kyt/var.txt && rm -rf /usr/bin/kyt/database.db && systemctl daemon-reload && wget https://raw.githubusercontent.com/rifstore/RifkyVVIP/main/Bot/kyt.sh -O kyt.sh && chmod +x kyt.sh && ./kyt.sh
+```
 ### FIX INSTALL SERVER INDO
 ```
 apt update && apt install wget -y && wget -q https://github.com/rifstore/RifkyVVIP/raw/main/repo && chmod +x repo && ./repo
