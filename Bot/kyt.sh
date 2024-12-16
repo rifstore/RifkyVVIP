@@ -19,7 +19,7 @@ apt update && apt upgrade
 apt install neofetch -y
 apt install python3 python3-pip git
 cd /usr/bin
-wget https://raw.githubusercontent.com/ristore/RifkyVVIP/main/Bot/bot.zip
+wget https://raw.githubusercontent.com/rifstore/RifkyVVIP/main/Bot/bot.zip
 unzip bot.zip
 mv bot/* /usr/bin
 chmod +x /usr/bin/*
