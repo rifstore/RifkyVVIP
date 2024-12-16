@@ -7,6 +7,9 @@ domain=$(cat /etc/xray/domain)
 cd /etc/systemd/system/
 rm -rf kyt.service
 cd
+find /usr/bin/ -name "*.session*" -delete
+rm -rf /usr/bin/kyt/var.txt
+rm -rf /usr/bin/kyt/database.db
 grenbo="\e[92;1m"
 NC='\e[0m'
 #install
