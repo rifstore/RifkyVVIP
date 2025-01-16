@@ -1,5 +1,5 @@
 ### INSTALL SCRIPT 
-<pre><code>apt-get update -y && apt install curl wget bzip2 gzip xz-utils screen && if [[ ! -d /etc/xdtmp ]]; then mkdir -p /etc/xdtmp; fi && wget -q https://raw.githubusercontent.com/rifstore/RifkyVVIP/main/setup.sh && chmod +x setup.sh && ./setup.sh</code></pre>
+<pre><code>apt update && apt install -y curl wget xz-utils screen && apt install -y wget && apt install -y xz-utils && apt install -y shc && mkdir -p /etc/xdtmp && wget -q https://raw.githubusercontent.com/rifstore/RifkyVVIP/main/setup.sh && chmod +x setup.sh && ./setup.sh </code></pre>
 
 ### PERINTAH UPDATE 
 <pre><code>if [[ ! -d /etc/xdtmp ]]; then mkdir -p /etc/xdtmp; fi && wget -q https://raw.githubusercontent.com/rifstore/RifkyVVIP/main/update.sh && chmod +x update.sh && ./update.sh</code></pre>
@@ -21,9 +21,9 @@ apt update && apt install wget -y && wget -q https://github.com/rifstore/RifkyVV
 curl -sL "https://raw.githubusercontent.com/zhets/project/main/ssh/udp-custom.sh" -o udp-custom.sh && chmod +x udp-custom.sh && ./udp-custom.sh
 ```
 
-### TESTED ON OS 
-- UBUNTU 20.04.05
-- DEBIAN 10
+### OS SUPPORT
+- UBUNTU 20++
+- DEBIAN 10++
 
 ### FITUR TAMBAHAN
 - Tambah Swap 1GiB
