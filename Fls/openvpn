@@ -12,6 +12,7 @@ unzip -d /etc/openvpn/ /etc/openvpn/vpn.zip
 rm -f /etc/openvpn/vpn.zip
 chown -R root:root /etc/openvpn/server/easy-rsa/
 }
+#hm
 function config_easy() {
 cd
 mkdir -p /usr/lib/openvpn/
