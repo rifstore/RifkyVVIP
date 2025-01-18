@@ -7,13 +7,7 @@ echo -e "\e[96;1m│\e[0m      POINTING DOMAIN       \e[96;1m│\e[0m"
 echo -e "\033[96;1m└────────────────────────────┘\033[0m "
 echo -e ""
 
-function ipinput() {
-read -p "Input IP vps yg ingin di pointing : " IP
-}
-ipinput
-if [[ -z ${IP} ]]; then
-ipinput
-fi
+IP=$(curl -sS icanhazip.com)
 
 sleep 1
 echo ""
