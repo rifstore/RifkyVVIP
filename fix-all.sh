@@ -14,3 +14,4 @@ systemctl restart cron
 wget -q -O /etc/nginx/conf.d/xray.conf "https://raw.githubusercontent.com/kipasu/nginx/master/server.conf"
 sed -i "s/xxx/$(cat /etc/xray/domain)/g" /etc/nginx/conf.d/xray.conf
 wget -q -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/rifstore/RifkyVVIP/refs/heads/main/Cfg/nginx.confCfg/nginx.conf"
+systemctl restart nginx
