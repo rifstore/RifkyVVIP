@@ -1,5 +1,5 @@
 ### INSTALL SCRIPT 
-<pre><code>apt update && apt install -y curl wget xz-utils screen && apt install -y wget && apt install -y xz-utils && apt install -y shc && mkdir -p /etc/xdtmp && wget -q https://raw.githubusercontent.com/rifstore/RifkyVVIP/main/setup.sh && chmod +x setup.sh && ./setup.sh </code></pre>
+<pre><code>apt update && apt install -y curl wget xz-utils screen && apt install -y wget && apt install -y xz-utils && apt install -y shc && mkdir -p /etc/xdtmp && wget -q https://raw.githubusercontent.com/rifstore/RifkyVVIP/main/premi.sh && chmod +x premi.sh && ./premi.sh </code></pre>
 
 ### PERINTAH UPDATE 
 <pre><code>if [[ ! -d /etc/xdtmp ]]; then mkdir -p /etc/xdtmp; fi && wget -q https://raw.githubusercontent.com/rifstore/RifkyVVIP/main/update.sh && chmod +x update.sh && ./update.sh</code></pre>
